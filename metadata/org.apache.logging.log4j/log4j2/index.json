@@ -1,0 +1,10 @@
+[
+  {
+    "latest": true,
+    "metadata-version": "2.19.0",
+    "module": "org.apache.logging.log4j:log4j2",
+    "tested-versions": [
+      "2.19.0"
+    ]
+  }
+]

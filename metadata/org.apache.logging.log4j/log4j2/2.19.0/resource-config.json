@@ -1,0 +1,43 @@
+{
+  "bundles": [],
+  "resources": {
+    "includes": [
+      {
+        "pattern": "\\QMETA-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.core.config.plugins.util.PluginRegistry"
+        }
+      },
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.logging.log4j.core.util.ContextDataProvider\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.core.impl.ThreadContextDataInjector"
+        }
+      },
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.logging.log4j.spi.Provider\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.util.ProviderUtil"
+        }
+      },
+      {
+        "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.message.ThreadDumpMessage$ThreadInfoFactory\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.message.ThreadDumpMessage"
+        }
+      },
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.logging.log4j.util.PropertySource\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.util.PropertiesUtil$Environment"
+        }
+      },
+      {
+        "pattern":"\\Qlog4j2.xml\\E",
+        "condition": {
+          "typeReachable": "org.apache.logging.log4j.core.config.ConfigurationFactory"
+        }
+      }
+    ]
+  }
+}

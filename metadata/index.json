@@ -86,5 +86,9 @@
   {
     "directory": "com.sun.mail/jakarta.mail",
     "module": "com.sun.mail:jakarta.mail"
+  },
+  {
+    "directory": "org.apache.logging.log4j/log4j2",
+    "module": "org.apache.logging.log4j:log4j2"
   }
 ]
